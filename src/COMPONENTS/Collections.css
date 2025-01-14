@@ -1,0 +1,78 @@
+.collection-container {
+    padding: 20px;
+   
+  }
+  
+  .collection-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .icon-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .action-icon:hover {
+    color: #000;
+  }
+  .icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    font-size: 1.5rem;
+  }
+  
+  .icon-button:hover {
+    cursor: pointer;
+  }
+  
+  .collection-group {
+    margin-bottom: 20px;
+  }
+  
+  .collection-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .recipes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .recipe-card {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .recipe-name {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  

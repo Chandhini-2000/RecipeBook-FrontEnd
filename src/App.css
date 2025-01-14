@@ -1,0 +1,30 @@
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  body.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .app {
+    min-height: 100vh;
+  }
+  
+  .header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .auth-btn, .mode-switch {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .auth-btn:hover, .mode-switch:hover {
+    color: #e74c3c; /* Example hover color */
+  }
+  

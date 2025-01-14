@@ -1,0 +1,42 @@
+* {
+  font-family: "Faculty Glyphic", sans-serif;
+  color: rgb(209, 32, 32); 
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+
+}
+
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .mode-switch {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+     
+  }
+  
+  .auth-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .auth-btn:hover,
+  .mode-switch:hover {
+    color: brown; 
+  }
+  

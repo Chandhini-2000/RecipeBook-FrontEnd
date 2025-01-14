@@ -1,0 +1,63 @@
+.text-align-justify {
+  text-align: justify;
+}
+
+.img1 {
+  border-radius: 5px;
+  margin: 25px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.text-custom-color {
+  color: rgb(218, 31, 31);
+}
+
+/* Gallery section images with different heights and widths */
+.img-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+  height: auto; /* Allows images to have varying heights */
+}
+
+.img-container img {
+  width: 100%; /* Makes sure image fills the column */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures image fills container without distortion */
+  display: block;
+}
+
+/* Overlay styles */
+.img-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Show overlay on hover */
+.img-container:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Icon hover */
+.icon-hover {
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.icon-hover:hover {
+  color: #e74c3c;
+}

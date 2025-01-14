@@ -1,0 +1,79 @@
+/* AdminLogin.css */
+
+/* Background styling */
+.login-container {
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Card styling */
+  .login-card {
+    background-color: #fff;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .input-field {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    transition: border 0.3s;
+  }
+  
+  /* Focus state for input fields */
+  .input-field:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+  }
+  
+  /* Button styling */
+  .submit-btn {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #2575fc;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for submit button */
+  .submit-btn:hover {
+    background-color: #6a11cb;
+  }
+  
+  /* ToastContainer styling */
+  .ToastContainer {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Adjust the size and appearance for smaller screens */
+  @media (max-width: 576px) {
+    .login-card {
+      padding: 20px;
+    }
+    .input-field {
+      font-size: 14px;
+    }
+    .submit-btn {
+      font-size: 14px;
+    }
+  }
+  
