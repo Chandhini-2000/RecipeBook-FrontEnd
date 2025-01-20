@@ -1,1 +1,1 @@
-export const serverUrl='http://localhost:4001'
+export const serverUrl='https://recipebook-backend11.onrender.com'
